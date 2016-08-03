@@ -41,6 +41,97 @@
 	{
 		border-color: transparent;
 	}
+	@media screen and (max-width: 980px) {
+
+			.thumbnails h3 {
+				font-size: 0.8em;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.thumbnails {
+				display: block;
+			}
+
+				.thumbnails a {
+					margin: 0 0 2em 0 !important;
+				}
+
+				.thumbnails > div {
+					display: block;
+					width: 100%;
+				}
+
+					.thumbnails > div:last-child > :last-child {
+						margin-bottom: 0 !important;
+					}
+
+				
+		}
+
+/* Poptrox */
+
+	.poptrox-popup {
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box;
+		-ms-box-sizing: content-box;
+		box-sizing: content-box;
+		background: rgba(255, 255, 255, 0.25);
+		box-shadow: 0 0.5em 3em 0 rgba(0, 0, 0, 0.25);
+		border-radius: 4px;
+		overflow: hidden;
+	}
+
+		.poptrox-popup .closer {
+			-moz-transition: opacity 0.2s ease-in-out;
+			-webkit-transition: opacity 0.2s ease-in-out;
+			-ms-transition: opacity 0.2s ease-in-out;
+			transition: opacity 0.2s ease-in-out;
+			text-decoration: none;
+			position: absolute;
+			top: 1em;
+			right: 1em;
+			z-index: 2;
+			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+			white-space: nowrap;
+			text-indent: 2.5em;
+			overflow: hidden;
+			width: 2.5em;
+			height: 2.5em;
+			display: block;
+		}
+
+			.poptrox-popup .closer:before {
+				content: "?";
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				font-family: FontAwesome;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none !important;
+			}
+
+			.poptrox-popup .closer:before {
+				display: block;
+				position: relative;
+				text-indent: 0;
+				border-radius: 100%;
+				box-shadow: inset 0 0 0 1px #ffffff;
+				color: #ffffff !important;
+				width: 2.5em;
+				height: 2.5em;
+				line-height: 2.5em;
+			}
+
+		.poptrox-popup:hover .closer {
+			opacity: 0.5;
+		}
+
+			.poptrox-popup:hover .closer:hover {
+				opacity: 1.0;
+			}
 	.foot li{
 			display: inline;
 			margin: opx auto;
@@ -106,7 +197,103 @@
 			</div>
 		</div>
 	</nav>
+ 
+    
+    <h3 style="text-align:center; margin-top: 60px">Lectures are an effective teaching method because they
+        <br>exploit human evolved 'human nature' to improve learning.</h3> 
+        <h4 style="text-align:center"><strong>Bruce G Charlton</strong></h4>
+    <h1 style="margin-left:100px">Lectures:</h1>
+    <p style="margin-left:100px"> Lectures are probably the best teaching method in many circumstances and for many students; especially for communicating conceptual knowledge, and where there is a significant knowledge gap between lecturer and audience.</p>
+    <p style="margin-left:100px"> Below are some of our lectures.</p>
+	<h1 style="margin-left:100px" >HTML Lectures</h1>
+	<section class="thumbnails">
+				<div class="container">
+				<div class="col-md-12">
+					<div>
+					<a href="https://www.youtube.com/watch?v=-USAeFpVf_A&feature=youtu.be&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB">
+						<img style="width:180px; height:180px" src="html.jpg" alt="Introduction" />
+					 
+					</a>
+					
+					<a href="https://www.youtube.com/watch?v=-USAeFpVf_A&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB&index=2">
+						<img style="width:180px; height:180px" src="html.jpg" alt="Tutorial 1" />
+					
+					</a>
+					
+					<a href="https://www.youtube.com/embed/XGSy3_Czz8k">
+						<img style="width:180px; height:180px" src="html.jpg" alt="Tutorial 2" />
+					
+					</a>
+					
+					<a href="https://www.youtube.com/watch?v=i3GE-toQg-o&index=3&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB">
+						<img style="width:180px; height:180px" src="html.jpg" alt="Tutorial 3" />
+					
+					</a>
+					
+					<a href="https://www.youtube.com/watch?v=09oErCBjVns&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB&index=4">
+						<img style="width:180px; height:180px" src="html.jpg" alt="Tutorial 4" />
+					
+					</a>
+					
+					<a href="https://www.youtube.com/watch?v=wvR40su_XBM&index=5&list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB">
+						<img style="width:180px; height:180px" src="html.jpg" alt="Tutorial 5" />
+					
+					</a>
+						
+				</div>
+				</div>
+				<div class="container">
+				<div class="col-md-12">
+				<h1>CSS Lectures</h1>
+					<a href="https://www.youtube.com/watch?v=qKoajPPWpmo&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C">
+						<img style="width:180px; height:180px" src="css.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=UO0ZPL8yMpU&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C&index=2">
+						<img style="width:180px; height:180px" src="css.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=JT0gyzbpD2U&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C&index=3">
+						<img style="width:180px; height:180px" src="css.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=hCoMjvtsyPA&index=4&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C">
+						<img style="width:180px; height:180px" src="css.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=Bj2ZCfDPP2A&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C&index=5">
+						<img style="width:180px; height:180px" src="css.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=u4dLB9NP3IA&index=6&list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C">
+						<img style="width:180px; height:180px" src="css.jpg" alt="" />
+					</a>
+					
 
+				</div>
+				</div>
+				<div class="container">
+				<h1> Bootstrap Lectures</h1>
+				<div class="col-md-12" >
+					<a href="https://www.youtube.com/watch?v=oJlKos0gePQ&list=PLVDYxb1dYhnqUn0_liNeONyicF1Y3ajLp">
+						<img style="width:180px; height:180px" src="bootstrap.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=bVoiqxiD2Wg&index=2&list=PLVDYxb1dYhnqUn0_liNeONyicF1Y3ajLp">
+						<img style="width:180px; height:180px" src="bootstrap.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=7GIjMkZ7Wzc&list=PLVDYxb1dYhnqUn0_liNeONyicF1Y3ajLp&index=3">
+						<img style="width:180px; height:180px" src="bootstrap.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=Q9JMjaE82v8&index=4&list=PLVDYxb1dYhnqUn0_liNeONyicF1Y3ajLp">
+						<img style="width:180px; height:180px" src="bootstrap.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=uGi_otR7t1U&list=PLVDYxb1dYhnqUn0_liNeONyicF1Y3ajLp&index=5">
+						<img style="width:180px; height:180px" src="bootstrap.jpg" alt="" />
+					</a>
+					<a href="https://www.youtube.com/watch?v=gmSHuPaowEs&index=6&list=PLVDYxb1dYhnqUn0_liNeONyicF1Y3ajLp">
+						<img style="width:180px; height:180px" src="bootstrap.jpg" alt="" />
+					</a>
+					
+				</div>
+			</div>
+				
+					
+	</section>
 
 <footer>
     <div class="foot">
